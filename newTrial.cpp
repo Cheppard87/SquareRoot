@@ -6,7 +6,7 @@ using namespace std;
 long double sqrtDivision(long double num, int precission = 5) {
     int firshchange;
     int secondchange;
-    int triggeringConflict;
+    int conflict1;
     if (num < 0) num *= -1;
     if (num >= 1000000000000000000) {
         cout << "TOO BIG!";
