@@ -4,7 +4,7 @@ using namespace std;
 
 //Custom square root function (long division method).
 long double sqrtDivision(long double num, int precission = 5) {
-
+    int firshchange;
     if (num < 0) num *= -1;
     if (num >= 1000000000000000000) {
         cout << "TOO BIG!";
