@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-using namespace std; 
+using namespace std;
 
 //Custom square root function (long division method).
 long double sqrtDivision(long double num, int precission = 5) {
