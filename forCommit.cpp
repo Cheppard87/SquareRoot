@@ -6,7 +6,5 @@ int main() {
 
     cout << "This will be in the index";
     cout << "NewLine";
-    string a;
-    cin >> a;
     return 0;
 }
