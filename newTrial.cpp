@@ -69,8 +69,8 @@ long double sqrtBabylonian(long double num, int precision = 5) {
 }
 
 int main() {
-    long double num;
     int precision = 8;
+    long double num;
     
     std::cout << "Enter the desired number to get its square root : ";
     cin >> num;
