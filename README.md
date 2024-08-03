@@ -1,4 +1,17 @@
-newTrial.cpp#include <iostream>
+if (num < 0) num *= -1;
+
+long double error = 1;
+for(int i = 0; i < precision + 1; i++) {
+    error /= 10;
+}
+
+long double currRoot = (num + 1) / 2;
+
+while ( (currRoot - num / currRoot) > error ) // loop until precision satisfied 
+{
+    currRoot = ( (num / currRoot) + currRoot ) / 2;
+}
+return currRoot;newTrial.cpp#include <iostream>
 #include <iomanip>
 using namespace std;
 
