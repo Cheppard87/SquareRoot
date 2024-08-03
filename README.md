@@ -1,4 +1,16 @@
-if (num < 0) num *= -1;
+std::cout << "Enter the desired number to get its square root : ";
+cin >> num;
+
+long double root;    
+root =  sqrtDivision(num, precision);
+
+cout << setprecision(precision + to_string((int)root).length());
+cout << root << endl;
+
+root = sqrtBabylonian(num, precision);
+cout << root << endl;
+
+return 0;if (num < 0) num *= -1;
 
 long double error = 1;
 for(int i = 0; i < precision + 1; i++) {
