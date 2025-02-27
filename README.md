@@ -1,4 +1,4 @@
-std::cout << "Enter the desired number to get its square root : ";
+newTrial.cppstd::cout << "Enter the desired number to get its square root : ";
 cin >> num;
 
 long double root;    
